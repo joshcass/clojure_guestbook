@@ -16,7 +16,7 @@
 
 (defonce ^:dynamic *conn* (atom nil))
 
-(conman/bind-connection *conn* "sql/queries.sql")
+(conman/bind-connection *conn* "/resources/sql/queries.sql")
 
 (def pool-spec
   {:adapter    :postgresql
