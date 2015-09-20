@@ -1,7 +1,7 @@
 (defproject guestbook "0.1.0-SNAPSHOT"
 
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Tutorial for Clojure guestbook"
+  :url "http://github.com/joshcass/clojure_guestbook"
 
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [selmer "0.9.2"]
@@ -45,8 +45,8 @@
                                  [ring/ring-devel "1.4.0"]
                                  [pjstadig/humane-test-output "0.7.0"]
                                  [mvxcvi/puget "0.8.1"]]
-                  
-                  
+
+
                   :repl-options {:init-ns guestbook.core}
                   :injections [(require 'pjstadig.humane-test-output)
                                (pjstadig.humane-test-output/activate!)]
