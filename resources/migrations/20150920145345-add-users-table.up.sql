@@ -1,0 +1,5 @@
+CREATE TABLE guestbook
+(id BIGSERIAL PRIMARY KEY,
+ name VARCHAR(30),
+ message VARCHAR(200),
+ timestamp TIMESTAMP);
